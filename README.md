@@ -1,11 +1,10 @@
-# Formulario-Votacion
-Aplicación Listado de Tareas
+# Aplicación Listado de Tareas
 
 ## Requerimientos
 - Tener Docker instalado
 
 ## Intalacion y configuración
-- Crear en la raíz del proyecto un archivo .env. Puede usar el .env.example de como referencia
+- Crear en la raíz del proyecto un archivo .env. Puede usar el .env.example como referencia
 - Ingresar el host y puerto de la api y datos de acceso de la base de datos mysql \
     **REACT_APP_API_URL**: Host de la aplicacion \
     **REACT_APP_API_PORT**: 3000 (este es fijo) \
@@ -17,6 +16,6 @@ Aplicación Listado de Tareas
 ```sh
 docker compose up -d
 ```
-- Una vez cargado los contenedores, podrá ingresar http://HOST:8081 para acceder a la aplicación
-- Para acceso a la base de datos, puede ingresar al phpmyadmin http://HOST:8010
+- Una vez cargado los contenedores, podrá ingresar a http://HOST:8081 para acceder a la aplicación
+- Para acceso a la base de datos, puede ingresar a phpmyadmin usando esta dirección http://HOST:8010
 
